@@ -1,0 +1,48 @@
+.l-main__header {
+    background: black;
+}
+
+.l-main__content__aside-left,
+.l-main__content__aside-right {
+    display: none;
+}
+
+.l-container {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+
+    .l-container {
+        width: 750px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .l-container {
+        width: 970px;
+    }
+
+    .l-main__content__aside-left {
+        display: block;
+        float: left;
+        width: 243px;
+    }
+
+    .l-main__content__aside-right {
+        display: block;
+        float: right;
+        width: 261px;
+    }
+
+}
+@media (min-width: 1200px) {
+
+    .l-container {
+        width: 1170px;
+    }
+
+}

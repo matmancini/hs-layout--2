@@ -1,0 +1,42 @@
+.l-wall__header {
+    overflow: auto;
+}
+
+.l-wall__content {
+    overflow: hidden;
+    background: #f2f2f2;
+}
+
+.l-wall__timeline {
+    min-height: 100%;
+}
+
+.l-wall__aside {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .l-wall__timeline {
+        border-right: 261px solid #e7e7e7;
+    }
+
+    .l-wall__aside {
+        display: block;
+        width: 261px;
+        float: right;
+    }
+
+}
+@media (min-width: 992px) {
+
+    .l-wall {
+        border-left: 243px solid #3f3f3f;
+    }
+
+}
+@media (min-width: 1200px) {
+
+
+
+}

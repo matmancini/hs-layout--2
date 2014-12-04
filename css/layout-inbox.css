@@ -1,0 +1,41 @@
+.l-inbox__thread {
+    display: none;
+}
+
+.l-inbox__messages {
+    min-height: 100%;
+    background: #e7e7e7;
+}
+
+@media (min-width: 768px) {
+
+    .l-inbox__thread {
+        display: block;
+        float: left;
+        width: 280px;
+    }
+
+    .l-inbox__content {
+        border-left: 280px solid #3f3f3f;
+    }
+
+}
+@media (min-width: 992px) {
+
+    .l-inbox {
+        border-right: 261px solid #f2f2f2;
+    }
+
+}
+@media (min-width: 1200px) {
+
+    .l-inbox__thread {
+        float: left;
+        width: 350px;
+    }
+
+    .l-inbox__content {
+        border-left: 350px solid #3f3f3f;
+    }
+
+}

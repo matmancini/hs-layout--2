@@ -1,0 +1,30 @@
+[class^=l-] {
+    position: relative;
+}
+
+[class^=l-main] {
+    border: 2px solid red;
+}
+
+[class^=l-wall] {
+    border: 2px solid blue;
+}
+
+[class^=l-]:after {
+    content: attr(class);
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 0, 0, 0.5);
+    padding: 0.25em 0.5em;
+    color: white;
+    font-size: 13px;
+}
+
+[class^=l-main]:after {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+[class^=l-wall]:after {
+    background: rgba(0, 0, 255, 0.5);
+}
